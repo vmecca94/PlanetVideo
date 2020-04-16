@@ -1,0 +1,70 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: small;
+	margin: 0 auto;
+	width: 80%;
+}
+
+header.top {
+	background-color: #b4b4b4;
+	height: 110px;
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 5px 5px;
+	overflow: hidden;
+}
+
+#himg {
+	display: block;
+	position: relative;
+	top: 15px;
+}
+
+#main {
+	width: auto;
+	margin: 0px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #b4b4b4;
+}
+
+form {
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	padding: 3px;
+}
+
+div.tableRow p:first-child {
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	padding: 30px;
+	margin: 10px 10px 10px 10px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+#errorecarta, #erroremail {
+	color: red;
+}
+
+/**********************************************************************************************************/
+@media screen and (max-width: 560px) {
+	body{
+		width: 95%;
+	}
+}

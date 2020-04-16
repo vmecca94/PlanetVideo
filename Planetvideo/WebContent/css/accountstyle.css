@@ -1,0 +1,230 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: small;
+	margin: 0 auto;
+	width: 80%;
+}
+
+header.top {
+	background-color: #b4b4b4;
+	height: 122px;
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 5px 5px;
+	overflow: hidden;
+}
+
+#himg {
+	display: block;
+	position: relative;
+	top: 15px;
+}
+
+#welcome {
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+form {
+	float: right;
+}
+
+input[type=submit] {
+	text-decoration:  none;
+	background-color: #008080;
+	color: #b4b4b4;
+	font-weight: bold;
+	padding: 10px 10px;
+	border: none;
+}
+
+nav {
+	font-size: 120%;
+	background-color: #b4b4b4;
+	margin: 0px 10px 0px 10px;
+}
+
+nav ul {
+	margin: 0px; 
+	list-style-type: none;
+	padding: 10px 0px 5px 10px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #008080;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: black;
+}
+
+#tableContainer {
+	margin: 0px 10px 0px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #b4b4b4;
+}
+
+#actions {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 100%;
+	border-bottom: 2px solid #b4b4b4;
+}
+
+#actions input[type=button] {
+	text-decoration:  none;
+	background-color: #008080;
+	color: #b4b4b4;
+	font-weight: bold;
+	padding: 10px 10px;
+	border: none;
+}
+
+#actions a:link, #actions a:visited {
+	text-decoration:  none;
+	background-color: #008080;
+	color: #b4b4b4;
+	font-size: 98%;
+	font-weight: bold;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+#estendi:link, #estendi:visited {
+	color: #008080;
+}
+
+#userdet {
+	margin: 20px 20px 20px 20px;
+}
+
+#abbdet {
+	margin: 20px 20px 20px 20px;
+}
+
+#fattdet {
+	margin: 30px 20px 30px 20px;
+}
+
+#results {
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 100%;
+	font-size: 120%;
+}
+
+#results h2 {
+	color: #008080;
+}
+
+#results p {
+	font-weight: bold;
+}
+
+#result1 {
+	margin: 20px 20px 20px 20px;
+}
+
+#result2 {
+	margin: 20px 20px 20px 20px;
+}
+
+#fatture {
+	width: 100%;
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+	font-size: 120%;
+}
+
+#fatture h2 {
+	color: #008080;
+}
+
+table {
+	margin: 0 auto;
+	width: 50%;
+}
+
+table, th, td {
+	text-align: center;
+	border: 2px solid #b4b4b4;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 4px;
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	padding: 30px;
+	margin: 10px 10px 10px 10px;
+}
+
+/**********************************************************************************************************/
+@media screen and (max-width: 760px) {
+	#actions {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	
+	#userdet {
+		margin: 20px 20px 20px 20px;
+	}
+
+	#abbdet {
+		margin: 20px 20px 20px 20px;
+	}
+
+	#fattdet {
+		margin: 20px 20px 30px 20px;
+	}
+}
+
+/**********************************************************************************************************/
+@media screen and (max-width: 700px) {
+	body{
+		width: 95%;
+	}
+	
+	nav ul {
+		margin-left: 50px;
+		list-style-type: none;
+	}
+	
+	nav ul li {
+		display: list-item;
+		margin-right: 70px;
+		text-align: center;
+		padding: 5px 10px 5px 10px;
+	}
+	
+	#actions {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	
+	#abbdet {
+		margin: 10px 20px 20px 20px;
+	}
+	
+	#results {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	
+	table {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 94%;
+	}
+}
